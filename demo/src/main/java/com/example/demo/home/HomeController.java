@@ -12,5 +12,11 @@ public class HomeController {
 	{
 		return "frontend";
 	}
+	
+	@GetMapping("/")
+	public String LoginPage(Model model)
+	{
+		return "login";
+	}
 
 }
